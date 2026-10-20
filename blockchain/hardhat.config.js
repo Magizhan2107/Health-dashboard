@@ -7,6 +7,9 @@ module.exports = {
     amoy: {
       url: process.env.RPC_URL,
       accounts: [process.env.PRIVATE_KEY]
+    },
+    localhost: {
+      url: "http://localhost:8545"
     }
   }
 };
